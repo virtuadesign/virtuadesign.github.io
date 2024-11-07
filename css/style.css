@@ -291,6 +291,9 @@ content:"\f00d"
 @media screen and (min-width:800px) {
 
 
+
+
+
     footer p{
 
         text-align: left;
@@ -334,7 +337,7 @@ article.flex {
         
         }
 
-        .mobile {
+        .mobile, header label {
             display: none;
             
             
@@ -345,7 +348,11 @@ article.flex {
             
             }
 
+header {
+    position: static;
 
+
+}
 
 
 
